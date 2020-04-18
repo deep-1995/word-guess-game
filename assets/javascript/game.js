@@ -156,7 +156,7 @@ function complete() {
 Game()
 
 // finally adding a key event 
-daocument.onkeyup = function (event) {
+document.onkeyup = function (event) {
     var guesses = String.fromCharCode(event.keyCode).toLowerCase();
     //check to see if guess entered matches value of random word
     checkLetters(guesses);
