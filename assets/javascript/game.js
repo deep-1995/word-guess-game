@@ -1,7 +1,7 @@
 
 
 // assign word options
-var words = ["bella", "ariel", "cinderalla", "elsa", "jasmine", "rapunzal", "snowwhite", "sofia"];
+var words = ["bella", "ariel", "cinderalla", "elsa", "jasmine", "snowwhite", "sofia"];
 
 //all audio files, including a title audio and all answers' audio files
 var arielAudio = new Audio('assets/audio/ariel.mp3');
@@ -9,7 +9,7 @@ var bellaAudio = new Audio('assets/audio/bella.mp3');
 var cinderallaAudio = new Audio('assets/audio/cinderalla.mp3');
 var elsaAudio = new Audio('assets/audio/elsa.mp3');
 var jasmineAudio = new Audio('assets/audio/jasmine.mp3');
-var rapunzelAudio = new Audio('assets/audio/rapunzel.mp3');
+
 var snowWhiteAudio = new Audio('assets/audio/snowWhite.mp3');
 var sofiaAudio = new Audio('assets/audio/sofia.mp3');
 
@@ -123,19 +123,7 @@ function aud() {
             snowWhiteAudio.pause();
             sofiaAudio.pause();
             break;
-        case "rapunzel":
-            imageItem.src = 'assets/images/rupunzel.gif';
 
-            bellaAudio.pause();
-            arielAudio.pause();
-            cinderallaAudio.pause();
-            elsaAudio.pause();
-            jasmineAudio.pause();
-            rapunzelAudio.play();
-            snowWhiteAudio.pause();
-            sofiaAudio.pause();
-
-            break;
         case "snowwhite":
             imageItem.src = 'assets/images/snowWhite.gif';
 
