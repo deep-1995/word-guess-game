@@ -66,7 +66,6 @@ function aud() {
             cinderallaAudio.pause();
             elsaAudio.pause();
             jasmineAudio.pause();
-            rapunzelAudio.pause();
             snowWhiteAudio.pause();
             sofiaAudio.pause();
 
@@ -80,7 +79,6 @@ function aud() {
             cinderallaAudio.pause();
             elsaAudio.pause();
             jasmineAudio.pause();
-            rapunzelAudio.pause();
             snowWhiteAudio.pause();
             sofiaAudio.pause();
 
@@ -93,7 +91,6 @@ function aud() {
             cinderallaAudio.play();
             elsaAudio.pause();
             jasmineAudio.pause();
-            rapunzelAudio.pause();
             snowWhiteAudio.pause();
             sofiaAudio.pause();
 
@@ -106,10 +103,8 @@ function aud() {
             cinderallaAudio.pause();
             elsaAudio.play();
             jasmineAudio.pause();
-            rapunzelAudio.pause();
             snowWhiteAudio.pause();
             sofiaAudio.pause();
-
             break;
         case "jasmine":
             imageItem.src = 'assets/images/jasmine.gif';
@@ -119,7 +114,6 @@ function aud() {
             cinderallaAudio.pause();
             elsaAudio.pause();
             jasmineAudio.play();
-            rapunzelAudio.pause();
             snowWhiteAudio.pause();
             sofiaAudio.pause();
             break;
@@ -132,7 +126,6 @@ function aud() {
             cinderallaAudio.pause();
             elsaAudio.pause();
             jasmineAudio.pause();
-            rapunzelAudio.pause();
             snowWhiteAudio.play();
             sofiaAudio.pause();
 
@@ -145,7 +138,6 @@ function aud() {
             cinderallaAudio.pause();
             elsaAudio.pause();
             jasmineAudio.pause();
-            rapunzelAudio.pause();
             snowWhiteAudio.pause();
             sofiaAudio.play();
             break;
