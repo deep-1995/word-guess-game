@@ -123,7 +123,7 @@ function aud() {
             snowWhiteAudio.pause();
             sofiaAudio.pause();
             break;
-        case "rupunzel":
+        case "rapunzel":
             imageItem.src = 'assets/images/rupunzel.gif';
 
             bellaAudio.pause();
