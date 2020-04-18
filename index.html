@@ -1,50 +1,63 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <title>Word Guess Game - 90s Video Game Edition</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
-        integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/gif" href="assests/images/all.gif">
+    <title>Word_Guess_Game</title>
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
-            <header class="col-md-12">
-                <h1 id="header-title ">Word Guess Game</h1>
-                <h2 id="header-subtitle">90s Video Game Edition</h2>
-            </header>
+    <div class="container bgColor">
+        <div class="row ">
+            <div class="col s12">
+                <div id="main" class="card">
+                    <div class="card-content">
+                        <h3 class=" center ">Princesses Name Guessing Game</h1>
+                            <div class="row">
+                                <div class="center">
+                                    <h4 class="card-title">Press Any Key To Guess Name !
+                        </h3>
+                        <h3 id="currentword">_ _ _ _ _</h3>
+                    </div>
+                    <div class="row center">
+                        <img src="assests/images/all.gif " class="img-fluid"></div>
+                    </form>
+                </div>
+
+
+                <div class="col-lg-12 center mr-9">
+
+                    <div>Wins:</div>
+                    <div id="wins"></div>
+                    <br>
+                    <div>losses:</div>
+                    <div id="losses"></div>
+                    <br>
+                    <div>Guesses left:</div>
+                    <div id="guesses-left"></div>
+                    <br>
+                    <div>Already guessed:</div>
+                    <div id="already-guessed"></div>
+                </div>
+            </div>
         </div>
-        <div class="row" id="main-content">
-            <section class="col-md-12 col-sm-12" id="game-info-section">
-                <p id="game-text">Game Consoles of the 90s (and the Xbox)</p>
-                <img src="assests/images/gameover.gif" id="game-image">
-            </section>
-        </div>
-        <div class="row">
-            <section class="col-md-6 col-sm-12" id="game-play-section">
-                <p>Press any key to get started! No coins required!</p>
-                <p id="wins-indicator">Wins: </p>
-                <p>Current Word</p>
-                <p id="word-entry">-</p>
-                <p>Number of Guesses Remaining</p>
-                <p id="guesses-indicator"></p>
-                <p>Letters Already Guessed</p>
-                <p id="guessed-letters"></p>
-            </section>
-        </div>
+
     </div>
     </div>
-    <div id="spacer"></div>
-    <footer>
-        <p>Github: <a target="_blank" href="https://github.com/mfamis">github.com/mfamis</a> </p>
-    </footer>
-    <input id="hidden-input"></input>
-    <script src="assets/javascript/secrets.js"></script>
-    <script src="assets/javascript/game.js"></script>
+    <script src="assests/javascript/game.js"></script>
+
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"
+        integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>
