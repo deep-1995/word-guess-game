@@ -61,33 +61,90 @@ function aud() {
         case "bella":
             imageItem.src = 'assets/images/bella.gif';
             bellaAudio.play();
+            arielAudio.pause();
+            cinderallaAudio.pause();
+            elsaAudio.pause();
+            jasmineAudio.pause();
+            rupunzelAudio.pause();
+            snowWhiteAudio.pause();
+            sofiaAudio.pause();
+
             break;
         case "ariel":
             imageItem.src = 'assets/images/ariel.gif';
+            bellaAudio.pause();
             arielAudio.play();
+            cinderallaAudio.pause();
+            elsaAudio.pause();
+            jasmineAudio.pause();
+            rupunzelAudio.pause();
+            snowWhiteAudio.pause();
+            sofiaAudio.pause();
             break;
         case "cinderalla":
             imageItem.src = 'assets/images/cinderalla.gif';
+            bellaAudio.pause();
+            arielAudio.pause();
             cinderallaAudio.play();
+            elsaAudio.pause();
+            jasmineAudio.pause();
+            rupunzelAudio.pause();
+            snowWhiteAudio.pause();
+            sofiaAudio.pause();
             break;
         case "elsa":
             imageItem.src = 'assets/images/elsa.gif';
+            bellaAudio.pause();
+            arielAudio.pause();
+            cinderallaAudio.pause();
             elsaAudio.play();
+            jasmineAudio.pause();
+            rupunzelAudio.pause();
+            snowWhiteAudio.pause();
+            sofiaAudio.pause();
             break;
         case "jasmine":
             imageItem.src = 'assets/images/jasmine.gif';
+            bellaAudio.pause();
+            arielAudio.pause();
+            cinderallaAudio.pause();
+            elsaAudio.pause();
             jasmineAudio.play();
+            rupunzelAudio.pause();
+            snowWhiteAudio.pause();
+            sofiaAudio.pause();
             break;
         case "rupunzel":
             imageItem.src = 'assets/images/rupunzel.gif';
+            bellaAudio.pause();
+            arielAudio.pause();
+            cinderallaAudio.pause();
+            elsaAudio.pause();
+            jasmineAudio.pause();
             rupunzelAudio.play();
+            snowWhiteAudio.pause();
+            sofiaAudio.pause();
             break;
         case "snowWhite":
             imageItem.src = 'assets/images/snowWhite.gif';
+            bellaAudio.pause();
+            arielAudio.pause();
+            cinderallaAudio.pause();
+            elsaAudio.pause();
+            jasmineAudio.pause();
+            rupunzelAudio.pause();
             snowWhiteAudio.play();
+            sofiaAudio.pause();
             break;
         case "sofia":
             imageItem.src = 'assets/images/sofia.gif';
+            bellaAudio.pause();
+            arielAudio.pause();
+            cinderallaAudio.pause();
+            elsaAudio.pause();
+            jasmineAudio.pause();
+            rupunzelAudio.pause();
+            snowWhiteAudio.pause();
             sofiaAudio.play();
             break;
     }
